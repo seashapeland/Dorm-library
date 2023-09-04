@@ -1,13 +1,7 @@
 <%@ page import="wenjian.upload" %>
 <%@ page import="java.io.*" %>
 <%@ page import="java.util.Map" %>
-<%@ page import="java.util.HashMap" %><%--
-  Created by IntelliJ IDEA.
-  User: DELL
-  Date: 2023/7/29
-  Time: 16:10
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="java.util.HashMap" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
