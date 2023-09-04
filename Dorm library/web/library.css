@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-image: url(pic/xiaojidaoxiao.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.context {
+    float: left;
+    width: 1200px;
+
+    margin-left: 75px;
+    margin-top: 50px;
+
+
+}
+.context li {
+    float: left;
+    width: 1170px;
+    height: 50px;
+    border-bottom: 2px solid #c5c5c5;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.context li div {
+    float: left;
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.context li a {
+    display: inline;
+    margin-left: 15px;
+    color: #e5e5e5;
+    font-size: 24px;
+    line-height: 50px;
+}
+.context li a:hover {
+    color: #555555;
+}
+.context li p {
+    float: right;
+    display: inline;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #f1f1f1;
+}
+
+.context li button {
+    float: right;
+    background-color: #853535;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: 0px;
+    width: 100px;
+    height: 32px;
+    margin-top: 15px;
+
+    display: inline;
+
+    margin-right: 10px;
+}
+
+
+.new {
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+    width: 160px;
+    height: 65px;
+    font-size: 36px;
+    color: rgb(60, 62, 60);
+    border: 5px dashed rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 65px;
+}
+
+.new:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.up {
+    display: none;
+    position: fixed;
+    right: 10px;
+    top: 100px;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.up p {
+    font-size: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+.up input#myfile {
+    display: block;
+    box-shadow: none;
+    width: 215px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.up input#myfile::file-selector-button {
+    background-color: #008080;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: 0px;
+    width: 100px;
+    height: 32px;
+    display: inline-block;
+    box-shadow: 3px 3px 10px #555555;
+    margin-right: 10px;
+}
+
+.up input#myup {
+    float: left;
+    background-color: #008080;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: 0px;
+    width: 100px;
+    height: 32px;
+    margin-top: 15px;
+    margin-left: 50px;
+    display: inline;
+    box-shadow: 3px 3px 10px #555555;
+    margin-right: 10px;
+}
+
+.up button {
+    background-color: #008080;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: 0px;
+    width: 100px;
+    height: 32px;
+    margin-top: 15px;
+    margin-left: 50px;
+    display: inline-block;
+    box-shadow: 3px 3px 10px #555555;
+    margin-right: 10px;
+}
+
+.user p {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    color: #f1f1f1;
+}
+
+.user a {
+    display: block;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    color: rgb(161, 43, 43);
+}
+
+.user a:hover {
+    color: #b0b0b0;
+}
+
+.rename {
+    display: none;
+    position: fixed;
+    right: 600px;
+    top: 300px;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.rename p {
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.rename input#myname {
+    display: block;
+    box-shadow: none;
+    width: 215px;
+    height: 34px;
+    font-size: 18px;
+    line-height: 34px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+
+
+.rename input#yes {
+    float: left;
+    background-color: #008080;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: 0px;
+    width: 100px;
+    height: 32px;
+    margin-top: 25px;
+    margin-left: 50px;
+    display: inline;
+    box-shadow: 3px 3px 10px #555555;
+    margin-right: 10px;
+}
+
+.rename button {
+    background-color: #008080;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: 0px;
+    width: 100px;
+    height: 32px;
+    margin-top: 25px;
+    margin-left: 50px;
+    display: inline-block;
+    box-shadow: 3px 3px 10px #555555;
+    margin-right: 10px;
+}

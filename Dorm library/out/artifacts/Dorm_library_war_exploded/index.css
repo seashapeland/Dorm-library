@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(pic/xiaojidaoxiao.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bigbox {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.1);
+    left: 50%;
+    top: 150px;
+    transform: translate(-50%);
+    border-radius: 10px;
+    border: 5px solid rgb(161, 161, 167);
+}
+
+.bigbox .head {
+    width: 600px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: 5px solid rgb(129, 129, 134);
+    border-radius: 10px 10px 0 0;
+}
+
+.bigbox .head p {
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 80px;
+}
+
+.bigbox table {
+    margin-left: 115px;
+    margin-top: 35px;
+}
+.bigbox tr {
+    height: 80px;
+}
+.bigbox table input {
+    height: 35px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgb(145, 139, 139);
+    text-indent: 5px;
+    outline: none;
+    font-size: 20px;
+}
+.oo {
+    text-indent: 15px;
+    font-size: 25px;
+    color: aliceblue;
+}
+.qq {
+    font-size: 25px;
+    color: aliceblue;
+}
+.choose input {
+    margin-left: 100px;
+}
+.bigbox button {
+    float: left;
+
+    margin: 30px 225px;
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgb(145, 139, 139);
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.bigbox button:hover {
+    background-color: rgb(167, 161, 161);
+}
+
